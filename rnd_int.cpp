@@ -10,13 +10,13 @@ int main() {
     srand(time(0));
 
     int currentGuess;
-    int rndNumber  = rand() % 100;
+    int rndNumber  = rand() % 21;
 
 
     cin.clear();
 
     do {
-        cout << "Choose your number between 0 and 99: ";
+        cout << "Choose your number between 0 and 20: ";
         cin >> currentGuess;
         
     } while (currentGuess != rndNumber);
