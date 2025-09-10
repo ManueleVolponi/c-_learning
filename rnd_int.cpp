@@ -21,6 +21,6 @@ int main() {
         
     } while (currentGuess != rndNumber);
 
-    cout << "You guessed the number: " << currentGuess << '\n';
+    cout << "You guessed the number: " << currentGuess << endl;
     return 0;
 }
